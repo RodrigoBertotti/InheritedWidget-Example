@@ -18,7 +18,7 @@ class _ParentWidgetState extends State<ParentWidget> {
 
   @override
   Widget build(BuildContext context) {
-    print("(2) Rebuilding ParentWidget");
+    print("(1) Rebuilding ParentWidget");
 
     return ParentData(
       sampleText: _sampleText,

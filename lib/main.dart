@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: StatefulBuilder(
         builder: (context, setState) {
-          print('(1) This StatefulBuilder will not rebuild as the tick increases');
+          print('This StatefulBuilder will not rebuild as the tick increases');
 
           return ParentWidget(
             child: const ChildWidget(),

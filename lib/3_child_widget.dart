@@ -8,7 +8,7 @@ class ChildWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('(3) Rebuilding ChildWidget');
+    print('(2) Rebuilding ChildWidget');
     print('');
 
     final updatedData = ParentData.of(context).sampleText;
